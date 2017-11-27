@@ -7,7 +7,7 @@
 //
 
 #import "SSXViewController.h"
-
+#import "SSXFoundation.h"
 @interface SSXViewController ()
 
 @end

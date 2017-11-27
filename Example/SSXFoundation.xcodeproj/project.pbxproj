@@ -38,7 +38,7 @@
 
 /* Begin PBXFileReference section */
 		07D0D00F4E224EDD1A042D65 /* Pods_SSXFoundation_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SSXFoundation_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		43CF72A4AD0076BAEC75FBB2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		43CF72A4AD0076BAEC75FBB2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		4E095F82BDD77E0E7B47685C /* Pods_SSXFoundation_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SSXFoundation_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5376C034162C508E768F9296 /* Pods-SSXFoundation_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SSXFoundation_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SSXFoundation_Tests/Pods-SSXFoundation_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* SSXFoundation_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SSXFoundation_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -62,9 +62,9 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		8AA008BCDE42789BFCC0A113 /* SSXFoundation.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = SSXFoundation.podspec; path = ../SSXFoundation.podspec; sourceTree = "<group>"; };
+		8AA008BCDE42789BFCC0A113 /* SSXFoundation.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SSXFoundation.podspec; path = ../SSXFoundation.podspec; sourceTree = "<group>"; };
 		972FF38BD10E16EBF8BD217B /* Pods-SSXFoundation_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SSXFoundation_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SSXFoundation_Tests/Pods-SSXFoundation_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		B6F60D98C4082C9F8CC2FF05 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		B6F60D98C4082C9F8CC2FF05 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		DAC491D6F8A22E005E6A5D70 /* Pods-SSXFoundation_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SSXFoundation_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-SSXFoundation_Example/Pods-SSXFoundation_Example.release.xcconfig"; sourceTree = "<group>"; };
 		FEE0519B26DDDC699255C917 /* Pods-SSXFoundation_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SSXFoundation_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SSXFoundation_Example/Pods-SSXFoundation_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -250,6 +250,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = sishengxiu;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = YM9752MKG4;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -524,9 +527,11 @@
 			baseConfigurationReference = FEE0519B26DDDC699255C917 /* Pods-SSXFoundation_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = YM9752MKG4;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SSXFoundation/SSXFoundation-Prefix.pch";
 				INFOPLIST_FILE = "SSXFoundation/SSXFoundation-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -539,9 +544,11 @@
 			baseConfigurationReference = DAC491D6F8A22E005E6A5D70 /* Pods-SSXFoundation_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = YM9752MKG4;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SSXFoundation/SSXFoundation-Prefix.pch";
 				INFOPLIST_FILE = "SSXFoundation/SSXFoundation-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";

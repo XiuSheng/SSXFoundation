@@ -1,0 +1,6 @@
+framework module SSXFoundation {
+  umbrella header "SSXFoundation-umbrella.h"
+
+  export *
+  module * { export * }
+}

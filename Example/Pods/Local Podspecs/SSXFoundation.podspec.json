@@ -1,0 +1,22 @@
+{
+  "name": "SSXFoundation",
+  "version": "0.1.0",
+  "summary": "A short description of SSXFoundation.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/sishengxiu/SSXFoundation",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "sishengxiu": "sishengxiu@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/sishengxiu/SSXFoundation.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "SSXFoundation/Classes/**/*"
+}
