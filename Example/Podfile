@@ -1,0 +1,14 @@
+use_frameworks!
+
+target 'SSXFoundation_Example' do
+  pod 'SSXFoundation', :path => '../'
+
+  target 'SSXFoundation_Tests' do
+    inherit! :search_paths
+
+    pod 'Specta'
+  pod 'Expecta'
+  pod 'FBSnapshotTestCase'
+  pod 'Expecta+Snapshots'
+  end
+end
