@@ -1,9 +1,9 @@
 # SSXFoundation
 
-[![CI Status](http://img.shields.io/travis/sishengxiu/SSXFoundation.svg?style=flat)](https://travis-ci.org/sishengxiu/SSXFoundation)
-[![Version](https://img.shields.io/cocoapods/v/SSXFoundation.svg?style=flat)](http://cocoapods.org/pods/SSXFoundation)
-[![License](https://img.shields.io/cocoapods/l/SSXFoundation.svg?style=flat)](http://cocoapods.org/pods/SSXFoundation)
-[![Platform](https://img.shields.io/cocoapods/p/SSXFoundation.svg?style=flat)](http://cocoapods.org/pods/SSXFoundation)
+[![CI Status](http://img.shields.io/travis/sishengxiu/SSXFoundation.svg?style=flat)](https://travis-ci.org/sishengxiu/SSXFoundation);
+[![Version](https://img.shields.io/cocoapods/v/SSXFoundation.svg?style=flat)](http://cocoapods.org/pods/SSXFoundation);
+[![License MIT](https://img.shields.io/cocoapods/l/SSXFoundation.svg?style=flat)](http://cocoapods.org/pods/SSXFoundation);
+[![Platform](https://img.shields.io/cocoapods/p/SSXFoundation.svg?style=flat)](http://cocoapods.org/pods/SSXFoundation);
 
 ## Example
 
