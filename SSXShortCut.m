@@ -41,7 +41,7 @@
 + (BOOL)isShapedScreen{
     if (@available(iOS 11.0, *)) {
         UIEdgeInsets safeAreaInsets = [[UIApplication sharedApplication].windows firstObject].safeAreaInsets;
-        return safeAreaInsets.top==0&&safeAreaInsets.bottom==0&&safeAreaInsets.left==0&&safeAreaInsets.right==0;
+        return (safeAreaInsets.top==0)&&(safeAreaInsets.bottom==0)&&(safeAreaInsets.left==0)&&(safeAreaInsets.right==0);
     } else {
         // Fallback on earlier versions
         return NO;
