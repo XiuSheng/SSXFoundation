@@ -51,6 +51,7 @@
 }
 
 - (void)showToastCenter{
+    [SSXShortCut isShapedScreen];
 //    [self.view makeToast:@"测试toast" duration:0.8 position:ToastPositionCENTER];
     [self.view makeToast:@"测试center" duration:0.8 position:SHOW_CENTER];
 }
