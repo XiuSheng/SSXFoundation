@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SSXFoundation'
-  s.version          = '0.3.0'
+  s.version          = '0.3.1'
   s.summary          = '个人开发框架继承'
   s.description      = <<-DESC
 自己的个人开发框架集成
