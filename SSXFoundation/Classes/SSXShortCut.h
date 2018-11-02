@@ -7,8 +7,6 @@
 
 #import <Foundation/Foundation.h>
 
-NS_ASSUME_NONNULL_BEGIN
-
 @interface SSXShortCut : NSObject
 
 /**
@@ -26,4 +24,3 @@ NS_ASSUME_NONNULL_BEGIN
 + (BOOL)isShapedScreen;
 @end
 
-NS_ASSUME_NONNULL_END

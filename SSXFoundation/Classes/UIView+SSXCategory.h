@@ -16,20 +16,18 @@
 #define mHexColor(hex) [UIColor colorWithRed:((float)((hex & 0xFF0000) >> 16))/255.0 green:((float)((hex & 0xFF00) >> 8))/255.0 blue:((float)(hex & 0xFF))/255.0 alpha:1.0]
 //随机颜色
 #define RANDOMCOLOR         [UIColor colorWithRed:(arc4random() % 256)/255.0 green:(arc4random() % 256)/255.0 blue:(arc4random() % 256)/255.0 alpha:1.0]
+#define WEAKSELF __weak __typeof(&*self)weakSelf = self;
 
 //判断屏幕类型
 #define IS_IPAD             (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad)
 #define IS_IPHONE           (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPhone)
+
 #define IS_RETINA           ([[UIScreen mainScreen] scale] >= 2.0)
 
 #define SCREEN_WIDTH        ([[UIScreen mainScreen] bounds].size.width)
 #define SCREEN_HEIGHT       ([[UIScreen mainScreen] bounds].size.height)
-#define SCREEN_MAX_LENGTH   (MAX(SCREEN_WIDTH, SCREEN_HEIGHT))
-#define SCREEN_MIN_LENGTH   (MIN(SCREEN_WIDTH, SCREEN_HEIGHT))
 
-#define isPhoneX ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(1125,2436), [[UIScreen mainScreen] currentMode].size) : NO)
-
-#define StatuBarHeight [[UIApplication sharedApplication] statusBarFrame].size.height
+#define StatusBarHeight [[UIApplication sharedApplication] statusBarFrame].size.height
 #define NavHeight 44
 #define NavAndStatuBar (StatuBarHeight+StatuBarHeight)
 #define TabBarHeight (isPhoneX?83:49)
