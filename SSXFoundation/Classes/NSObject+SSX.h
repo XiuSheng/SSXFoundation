@@ -21,6 +21,19 @@
  */
 - (BOOL)isPhoneNumber;
 
+/**
+ 邮箱正则校验
+
+ @return 是否是邮箱
+ */
+- (BOOL)isEmail;
+
+/**
+ 判断是否是数字
+
+ @return 判断结果
+ */
+- (BOOL)isNumber;
 @end
 
 @interface UIDevice (SSX)

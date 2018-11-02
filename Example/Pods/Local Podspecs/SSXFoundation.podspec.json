@@ -1,8 +1,8 @@
 {
   "name": "SSXFoundation",
-  "version": "0.1.0",
-  "summary": "A short description of SSXFoundation.",
-  "description": "TODO: Add long description of the pod here.",
+  "version": "0.3.0",
+  "summary": "个人开发框架继承",
+  "description": "自己的个人开发框架继承",
   "homepage": "https://github.com/sishengxiu/SSXFoundation",
   "license": {
     "type": "MIT",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/sishengxiu/SSXFoundation.git",
-    "tag": "0.1.0"
+    "tag": "0.3.0"
   },
   "platforms": {
     "ios": "8.0"

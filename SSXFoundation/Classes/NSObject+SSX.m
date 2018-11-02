@@ -30,6 +30,19 @@
     }
 }
 
+- (BOOL)isEmail
+{
+    NSString *emailRegex = @"\\w+([-+.]\\w+)*@\\w+([-.]\\w+)*.\\w+([-.]\\w+)*";
+    NSPredicate *emailTest = [NSPredicate predicateWithFormat:@"SELF MATCHES %@", emailRegex];
+    return [emailTest evaluateWithObject:self];
+}
+
+- (BOOL)isNumber
+{
+    NSString *numberRegex = @"[0-9]+";
+    NSPredicate *regexNumber = [NSPredicate predicateWithFormat:@"SELF MATCHES %@", numberRegex];
+    return [regexNumber evaluateWithObject:self];
+}
 
 @end
 

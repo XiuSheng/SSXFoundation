@@ -10,7 +10,9 @@
 #endif
 #endif
 
+#import "NSObject+SSX.h"
 #import "SSXFoundation.h"
+#import "SSXShortCut.h"
 #import "UIView+SSXCategory.h"
 
 FOUNDATION_EXPORT double SSXFoundationVersionNumber;

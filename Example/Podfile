@@ -2,7 +2,8 @@ use_frameworks!
 
 target 'SSXFoundation_Example' do
   pod 'SSXFoundation', :path => '../SSXFoundation.podspec'
-
+  pod 'AFNetworking'
+  pod 'MBProgressHUD'
   target 'SSXFoundation_Tests' do
     inherit! :search_paths
 
